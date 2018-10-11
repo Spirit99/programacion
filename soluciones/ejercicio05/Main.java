@@ -16,7 +16,7 @@ public class Main
 			}
 			div++;
 		}
-		if(divisorEncontrado) // divisorEncontrado == true
+		if(divisorEncontrado || num == 1) // divisorEncontrado == true
 		{
 			System.out.println("No es primo.");
 		}
