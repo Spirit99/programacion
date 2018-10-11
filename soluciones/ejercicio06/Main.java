@@ -9,7 +9,7 @@ public class Main
 		System.out.print("Número: ");
 		int primero = sc.nextInt();
 		int suma = primero;
-		for(int i = 0; i < 8; i++)
+		for(int i = 0; i < CANTIDAD - 1; i++)
 		{
 			System.out.print("Número: ");
 			num = sc.nextInt();
@@ -17,7 +17,7 @@ public class Main
 		}
 		if(primero == num)
 		{
-			System.out.println("Media: " + suma / 9f);
+			System.out.println("Media: " + (float)suma / CANTIDAD);
 		}
 		sc.close();
 	}
