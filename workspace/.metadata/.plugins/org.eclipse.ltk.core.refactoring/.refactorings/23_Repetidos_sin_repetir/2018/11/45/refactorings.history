@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;encontrado&apos; in &apos;repetidos.Main.main(...)&apos; to &apos;repetido&apos;&#x0A;- Original project: &apos;23_Repetidos_sin_repetir&apos;&#x0A;- Original element: &apos;repetidos.Main.main(String[]).encontrado&apos;&#x0A;- Renamed element: &apos;encontrado&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;encontrado&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;repetidos{Main.java[Main~main~\[QString;@encontrado!334!352!342!351!Z!0!false" name="repetido" references="true" stamp="1541694423185" version="1.0"/>
+</session>

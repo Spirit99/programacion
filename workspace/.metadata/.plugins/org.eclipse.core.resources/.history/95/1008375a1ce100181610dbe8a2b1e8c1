@@ -1,0 +1,21 @@
+package mostrarsinrepetir;
+
+import java.util.Scanner;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		final int NUM = 10;
+		int[] numeros = new int[NUM];
+		for (int i = 0; i < numeros.length; i++)
+		{
+			System.out.print("Número: ");
+			numeros[i] = sc.nextInt();
+		}
+
+	}
+
+}
