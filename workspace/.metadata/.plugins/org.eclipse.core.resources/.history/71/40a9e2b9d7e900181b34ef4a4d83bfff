@@ -33,20 +33,13 @@ public class Main
 						{
 							posInsercion++;
 						}
-						if(aux == numeros[posInsercion])
+						// Desplazar elementos
+						for (int i = cont - 1; i >= posInsercion; i--)
 						{
-							System.out.println("Repetido.");
+							numeros[i + 1] = numeros[i];
 						}
-						else
-						{
-							// Desplazar elementos
-							for (int i = cont - 1; i >= posInsercion; i--)
-							{
-								numeros[i + 1] = numeros[i];
-							}
-							numeros[posInsercion] = aux;
-							cont++;
-						}
+						numeros[posInsercion] = aux;
+						cont++;
 					}
 					break;
 				case 2: // Listar
@@ -70,12 +63,11 @@ public class Main
 							{
 								numeros[j] = numeros[j + 1];
 							}
-
+							cont--;
 						}
 					}
 					if(encontrado)
 					{
-						cont--;
 						System.out.println("Eliminado.");
 					}
 					else

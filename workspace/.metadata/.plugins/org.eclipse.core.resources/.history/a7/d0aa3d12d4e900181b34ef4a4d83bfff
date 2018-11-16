@@ -28,24 +28,22 @@ public class Main
 					{
 						System.out.print("Número: ");
 						aux = sc.nextInt();
-						int posInsercion = 0;
-						while(aux > numeros[posInsercion] && posInsercion < cont)
+						encontrado = false;
+						for (int i = 0; i < cont && !encontrado; i++)
 						{
-							posInsercion++;
+							if(aux == numeros[i])
+							{
+								encontrado = true;
+							}
 						}
-						if(aux == numeros[posInsercion])
+						if(!encontrado)
 						{
-							System.out.println("Repetido.");
+							numeros[cont] = aux;
+							cont++;
 						}
 						else
 						{
-							// Desplazar elementos
-							for (int i = cont - 1; i >= posInsercion; i--)
-							{
-								numeros[i + 1] = numeros[i];
-							}
-							numeros[posInsercion] = aux;
-							cont++;
+							System.out.println("Repetido.");
 						}
 					}
 					break;
@@ -66,16 +64,15 @@ public class Main
 						{
 							encontrado = true;
 							// Número encontrado en la posición i
-							for (int j = i; j < cont - 1; j++)
+							for (int j = i; j < cont; j++)
 							{
 								numeros[j] = numeros[j + 1];
 							}
-
+							cont--;
 						}
 					}
 					if(encontrado)
 					{
-						cont--;
 						System.out.println("Eliminado.");
 					}
 					else

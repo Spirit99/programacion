@@ -70,12 +70,11 @@ public class Main
 							{
 								numeros[j] = numeros[j + 1];
 							}
-
+							cont--;
 						}
 					}
 					if(encontrado)
 					{
-						cont--;
 						System.out.println("Eliminado.");
 					}
 					else
