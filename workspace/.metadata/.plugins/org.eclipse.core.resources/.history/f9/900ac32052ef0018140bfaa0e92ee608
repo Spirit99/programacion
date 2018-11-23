@@ -1,0 +1,19 @@
+/*
+ * Leer números ascendentes hasta llenar un array de 5 elementos.
+ * Si un número no supera al aterior, se muestra un mensaje,
+ * y el número no es válido.
+*/
+
+
+package ejercicio2;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+
+
+	}
+
+}

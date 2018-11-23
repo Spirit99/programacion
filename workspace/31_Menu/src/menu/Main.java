@@ -33,7 +33,7 @@ public class Main
 						{
 							posInsercion++;
 						}
-						if(aux == numeros[posInsercion])
+						if(aux == numeros[posInsercion] && posInsercion < cont)
 						{
 							System.out.println("Repetido.");
 						}

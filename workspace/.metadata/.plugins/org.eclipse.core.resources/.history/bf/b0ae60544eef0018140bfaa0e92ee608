@@ -1,0 +1,18 @@
+/*
+ * Programa que lee números desde cosola hasta que se
+ * introduce un número perfecto. (6,28,496)
+ */
+
+
+package ejercicio1;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+
+
+	}
+
+}
