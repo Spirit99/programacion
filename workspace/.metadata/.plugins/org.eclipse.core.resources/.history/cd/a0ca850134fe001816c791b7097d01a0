@@ -1,0 +1,24 @@
+package maximafila;
+
+import java.util.Random;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		final int FILAS = 6;
+		final int COLS = 4;
+		int[][] rectangulo = new int[FILAS][COLS];
+		Random random = new Random();
+		for (int i = 0; i < rectangulo.length; i++)
+		{
+			for (int j = 0; j < rectangulo[0].length; j++)
+			{
+				rectangulo = random.nextInt(10);
+			}
+		}
+
+	}
+
+}

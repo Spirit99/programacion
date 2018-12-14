@@ -1,0 +1,27 @@
+package buscar2d;
+
+import java.util.Scanner;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		final int FILAS = 4;
+		final int COLS = 4;
+		int[][] rectangulo = new int[FILAS][COLS];
+		Scanner sc = new Scanner(System.in);
+		for (int fila = 0; fila < rectangulo.length; fila++)
+		{
+			for (int col = 0; col < rectangulo[0].length; col++)
+			{
+				System.out.print("Número [" + fila + "][" +
+						col + "]:");
+				rectangulo[fila][col] = sc.nextInt();
+			}
+		}
+		sc.close();
+
+	}
+
+}

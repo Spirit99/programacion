@@ -16,10 +16,27 @@ public class Main
 		int[][] rectangulo = new int[FILAS][COLUMNAS];
 
 		int cont = 1;
-		// TODO rellenar
-
-
-
+		boolean esPar = true;
+		for (int fila = 0; fila < rectangulo.length; fila++)
+		{
+			if(esPar)
+			{
+				for (int col = 0; col < rectangulo[0].length; col++)
+				{
+					rectangulo[fila][col] = cont;
+					cont++;
+				}
+			}
+			else
+			{
+				for (int col = rectangulo[0].length - 1; col >= 0;col--)
+				{
+					rectangulo[fila][col] = cont;
+					cont++;
+				}
+			}
+			esPar = !esPar;
+		}
 
 		// Mostrar
 		for (int fila = 0; fila < rectangulo.length; fila++)

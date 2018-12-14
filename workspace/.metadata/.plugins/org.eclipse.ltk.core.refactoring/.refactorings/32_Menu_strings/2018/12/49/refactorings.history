@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;encontrado&apos; in &apos;menustrings.Main.main(...)&apos; to &apos;encontrada&apos;&#x0A;- Original project: &apos;32_Menu_strings&apos;&#x0A;- Original element: &apos;menustrings.Main.main(String[]).encontrado&apos;&#x0A;- Renamed element: &apos;encontrado&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;encontrado&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;menustrings{Main.java[Main~main~\[QString;@encontrado!247!265!255!264!Z!0!false" name="encontrada" references="true" stamp="1544026709313" version="1.0"/>
+</session>

@@ -12,7 +12,7 @@ org.eclipse.jdt.ui.formatterprofiles.version=12
 org.eclipse.jdt.ui.javadoclocations.migrated=true
 org.eclipse.jdt.ui.text.code_templates_migrated=true
 org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
-org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="java-statements" deleted\="false" description\="Scanner from console" enabled\="true" name\="sc">Scanner sc \= new Scanner(System.in);</template></templates>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="java-statements" deleted\="false" description\="Scanner from console" enabled\="true" name\="sc">Scanner sc \= new Scanner(System.in);</template><template autoinsert\="true" context\="java-statements" deleted\="false" description\="Parsear integer" enabled\="true" name\="parse">Integer.parseInt(sc.nextLine());</template></templates>
 org.eclipse.jdt.ui.text.templates_migrated=true
 org.eclipse.jface.textfont=1|Monospace|16.0|0|GTK|1|;
 proposalOrderMigrated=true

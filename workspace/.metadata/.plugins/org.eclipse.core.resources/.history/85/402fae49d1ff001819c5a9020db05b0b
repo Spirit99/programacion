@@ -1,0 +1,26 @@
+package ajedrez;
+
+import java.util.Scanner;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Filas: ");
+		final int FILAS = sc.nextInt();
+		System.out.print("Columnas: ");
+		final int COLS = sc.nextInt();
+		sc.close();
+		boolean[][] ajedrez = new boolean[FILAS][COLS];
+		for (int fila = 0; fila < ajedrez.length; fila++)
+		{
+			for (int col = 0; col < ajedrez[0].length; col++)
+			{
+
+			}
+		}
+	}
+
+}
