@@ -1,0 +1,20 @@
+package apuntadores;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		String cad1 = "hola";
+		String cad2 = cad1;
+
+
+
+		System.out.println(cad2);
+
+		cad1 = "adios";
+
+		System.out.println(cad2);
+	}
+
+}

@@ -1,0 +1,13 @@
+package poo;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		Pelicula pelicula = new Pelicula("spiderman", "sadfsad", 2018);
+
+
+	}
+
+}

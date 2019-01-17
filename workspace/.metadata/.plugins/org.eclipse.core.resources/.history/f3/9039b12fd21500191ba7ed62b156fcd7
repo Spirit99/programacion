@@ -1,0 +1,16 @@
+package argumentos;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		float suma = 0f;
+		System.out.println("Suma:");
+		for (int i = 0; i < args.length; i++)
+		{
+			suma += Float.parseFloat(args[i])
+		}
+	}
+
+}

@@ -1,0 +1,30 @@
+package menu;
+
+import java.util.Scanner;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		String[] nombres = new String[10];
+		String opcion = "";
+
+		while(!opcion.equals("6"))
+		{
+			// Mostrar menú
+			System.out.println("1.-Introducir nombre.\n" +
+				"2.-Listar nombres.\n" +
+				"3.-Buscar nombre.\n" +
+				"4.-Eliminar nombre.\n" +
+				"5.-Eliminar todos los nombres.\n" +
+				"6.-Salir.");
+			// Leer opción
+
+			// Procesar la opción
+		}
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package mayusculas;
+
+import java.util.Scanner;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Cadena: ");
+		String cad = sc.nextLine();
+		sc.close();
+		String cad2 = cad.toUpperCase() + "";
+		if(cad == cad2)
+		{
+			System.out.println("Está en mayúsculas.");
+		}
+		else
+		{
+			System.out.println("No está todo en mayúsculas.");
+		}
+	}
+}

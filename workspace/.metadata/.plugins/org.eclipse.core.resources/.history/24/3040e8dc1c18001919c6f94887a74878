@@ -1,0 +1,16 @@
+package poo;
+
+public class Pelicula
+{
+	// Atributos
+	private String titulo;
+	private String director;
+	private int añoEstreno;
+
+	// Constructor
+	public Pelicula()
+	{
+
+	}
+
+}

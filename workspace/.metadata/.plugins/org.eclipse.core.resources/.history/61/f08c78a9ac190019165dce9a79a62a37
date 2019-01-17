@@ -1,0 +1,17 @@
+package poo;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		Pelicula pelicula = new Pelicula("spiderman", "sadfsad", 2018);
+
+
+		String cad = String.valueOf(234);
+
+		String cad2 = System.out.println("hola");
+
+	}
+
+}
