@@ -1,0 +1,15 @@
+package menu;
+
+public class Nombres
+{
+	public Nombres(int tamaño)
+	{
+		String[] nombres = new String[tamaño];
+	}
+
+	public boolean anadir(String nombre)
+	{
+		return true;
+	}
+
+}

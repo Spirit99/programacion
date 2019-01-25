@@ -1,0 +1,62 @@
+package menu;
+
+import java.util.Scanner;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		String opcion = "";
+
+		String nombre;
+
+		while(!opcion.equals("6"))
+		{
+			// Mostrar menú
+			System.out.println("1.-Introducir nombre.\n" +
+				"2.-Listar nombres.\n" +
+				"3.-Buscar nombre.\n" +
+				"4.-Eliminar nombre.\n" +
+				"5.-Eliminar todos los nombres.\n" +
+				"6.-Salir.");
+			// Leer opción
+			opcion = sc.nextLine();
+			// Procesar la opción
+			switch(opcion)
+			{
+				case "1": // Introducir nombre
+				break;
+
+				case "2": // Listar
+					System.out.println("Listado:");
+					for (int i = 0; i < cont; i++)
+					{
+						System.out.println(nombres[i]);
+					}
+				break;
+
+				case "3": // Buscar nombre
+				break;
+
+				case "4": // Eliminar nombre
+				break;
+
+				case "5": // Eliminar todos
+					cont = 0;
+				break;
+
+				case "6": // Salir
+				break;
+
+				default:
+					System.out.println("Opción no válida.");
+				break;
+			}
+		}
+		sc.close();
+
+	}
+
+}

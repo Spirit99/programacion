@@ -1,0 +1,40 @@
+package ejercicio1;
+
+import java.util.Scanner;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Número: ");
+		int numero = sc.nextInt();
+		int anterior = Integer.MAX_VALUE;
+		boolean descendente = true;
+
+		while(numero >= 0 && descendente)
+		{
+			//descendente = false;
+
+			if(numero >= anterior)
+			{
+				descendente = false;
+				anterior = numero;
+			}
+
+			if(descendente)
+			{
+				System.out.println("Número: ");
+				numero = sc.nextInt();
+			}
+		}
+		if(descendente)
+		{
+			System.out.println("Fin de la ejecución.");
+		}
+
+
+	}
+
+}

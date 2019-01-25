@@ -1,0 +1,22 @@
+package menu;
+
+public class Nombres
+{
+	private String[] nombres;
+	private int cont = 0;
+
+	public Nombres(int tamaño)
+	{
+		nombres = new String[tamaño];
+	}
+
+	public boolean anadir(String nombre)
+	{
+		if(nombres.length == cont)
+		{
+			return false;
+		}
+		return true;
+	}
+
+}

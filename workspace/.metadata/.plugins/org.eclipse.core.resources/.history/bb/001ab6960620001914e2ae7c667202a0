@@ -1,0 +1,34 @@
+package mayusculas;
+
+import java.util.Scanner;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		String cadena = "sdfsdf";
+		char c = cadena.charAt(0);
+
+
+		String numero = String.valueOf(123);
+
+
+
+
+
+
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Cadena: ");
+		String cad = sc.nextLine();
+		sc.close();
+		if(cad.equals(cad.toUpperCase()))
+		{
+			System.out.println("Está en mayúsculas.");
+		}
+		else
+		{
+			System.out.println("No está todo en mayúsculas.");
+		}
+	}
+}
