@@ -1,9 +1,0 @@
-package vehiculos;
-
-public class Vehiculo
-{
-	private int numeroRuedas;
-	private int velocidadMaxima;
-	private int velocidadActual;
-	private int peso;
-}

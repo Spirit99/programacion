@@ -1,19 +1,15 @@
 package mistring;
 
-import java.util.Scanner;
-
 public class Main
 {
 
 	public static void main(String[] args)
 	{
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Cadena: ");
-		String cadena = sc.nextLine();
-		System.out.println(MiString.alReves(cadena));
-		sc.close();
+		System.out.println(MiString.alReves("hola"));
 
-		MiString.limpiaCaracteres("abecedario", "aeiou");
+		System.out.println(MiString.limpiaCaracteres("abecedario", "aeiou"));
+
+		System.out.println(MiString.sustituye("buenas tardes", 'a', 'o'));
 
 	}
 

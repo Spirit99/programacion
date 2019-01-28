@@ -12,4 +12,6 @@
 <fullyQualifiedTypeName name="menu.Nombres"/>
 <fullyQualifiedTypeName name="nombres.Nombres"/>
 <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="empleados.Empleado"/>
+<fullyQualifiedTypeName name="mistring.MiString"/>
 </qualifiedTypeNameHistroy>
