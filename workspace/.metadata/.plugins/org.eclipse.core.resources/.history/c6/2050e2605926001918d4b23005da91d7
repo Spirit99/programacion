@@ -1,0 +1,21 @@
+package sobrecarga;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		Alumno alumno1 = new Alumno("Pepe", 0);
+
+
+		alumno1.setAñoNacimiento(2000);
+		alumno1.setNota(7.8f);
+
+
+		Alumno alumno2 = new Alumno("Ana", 1996);
+
+
+
+	}
+
+}

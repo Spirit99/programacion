@@ -1,0 +1,13 @@
+package numero;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		int[] nums = {23,45,56,67,67,8,8};
+		Numero.ordena(nums, Numero.ASCENDENTE);
+
+	}
+
+}

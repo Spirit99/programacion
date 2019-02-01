@@ -1,0 +1,12 @@
+package sobrecarga;
+
+public class Alumno
+{
+	private String nombre;
+	private int añoNacimiento;
+	private float nota;
+
+
+
+
+}

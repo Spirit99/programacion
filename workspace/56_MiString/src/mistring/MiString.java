@@ -9,25 +9,25 @@ public class MiString
 
 	public static String alReves(String cadena)
 	{
-		String alReves = "";
+		StringBuilder alReves = new StringBuilder();
 		for (int i = cadena.length() - 1; i >= 0; i--)
 		{
-			alReves += cadena.charAt(i);
+			alReves.append(cadena.charAt(i));
 		}
-		return alReves;
+		return alReves.toString();
 	}
 
 	public static String limpiaCaracteres(String cad1, String cad2)
 	{
-		String limpio = "";
+		StringBuilder limpio = new StringBuilder();
 		for (int i = 0; i < cad1.length(); i++)
 		{
 			if(!seEncuentra(cad1.charAt(i), cad2))
 			{
-				limpio += cad1.charAt(i);
+				limpio.append(cad1.charAt(i));
 			}
 		}
-		return limpio;
+		return limpio.toString();
 	}
 
 	private static boolean seEncuentra(char c, String cadena)
@@ -63,16 +63,30 @@ public class MiString
 
 	public static boolean todosIguales(String cadena)
 	{
-		return false;
+		for (int i = 1; i < cadena.length(); i++)
+		{
+			if(cadena.charAt(0) != cadena.charAt(i))
+			{
+				return false;
+			}
+		}
+		return true;
 	}
 
 	public static String quitaEspacios(String cadena)
 	{
-		return null;
+		return limpiaCaracteres(cadena, " ");
 	}
 
 	public static boolean esNumeroEntero(String cadena)
 	{
-		return false;
+		for (int i = 0; i < cadena.length(); i++)
+		{
+			if(cadena.charAt(i) < '0' || cadena.charAt(i) > '9')
+			{
+				return false;
+			}
+		}
+		return true;
 	}
 }

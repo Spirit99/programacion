@@ -1,0 +1,63 @@
+package numero;
+
+public class Numero
+{
+
+	public static final int ASCENDENTE = 0;
+	public static final int DESCENCENTE = 1;
+
+
+	private Numero()
+	{
+
+	}
+	public static boolean esPrimo(int num)
+	{
+		for(int div = 2; div <= num; div++)
+		{
+			if(num % div == 0)
+			{
+				return false;
+			}
+		}
+		return true;
+	}
+	public static boolean esPerfecto(int num)
+	{
+		int sumaDivisores = 0;
+		for (int div = 1; div <= num; div++)
+		{
+			if(num % div == 0)
+			{
+				sumaDivisores += div;
+			}
+		}
+		return sumaDivisores == num;
+	}
+	public static boolean esCapicua(int num)
+	{
+
+	}
+	public static boolean sonAmigos(int num1, int num2)
+	{
+
+	}
+	public static int[] extraeDivisores(int num)
+	{
+
+	}
+	public static void duplica(int[] nums)
+	{
+
+	}
+	public static void ordena(int[] nums, int tipo)
+	{
+		if(tipo == ASCENDENTE)
+		{
+
+		}
+	}
+
+
+
+}

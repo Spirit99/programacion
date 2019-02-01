@@ -11,6 +11,15 @@ public class Main
 
 		System.out.println(MiString.sustituye("buenas tardes", 'a', 'o'));
 
+		System.out.println(MiString.esNumeroEntero("123123213123"));
+
+		System.out.println(MiString.esNumeroEntero("123123X13123"));
+
+		System.out.println(MiString.todosIguales("aaaaaaaaa"));
+
+		System.out.println(MiString.todosIguales("aaaaaaaa1"));
+
+		System.out.println(MiString.quitaEspacios("sin espacios en blanco"));
 	}
 
 }
