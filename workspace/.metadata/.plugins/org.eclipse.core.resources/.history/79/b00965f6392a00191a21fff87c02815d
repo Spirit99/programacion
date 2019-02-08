@@ -1,0 +1,22 @@
+package alumnos;
+
+public class Alumno
+{
+	private String nombre;
+	private double[] notas;
+
+	public static final double SIN_NOTA = -1;
+
+	public Alumno(String nombre)
+	{
+		this.nombre = nombre;
+		notas = new double[3];
+		for (int i = 0; i < notas.length; i++)
+		{
+			notas[i] = SIN_NOTA;
+		}
+	}
+
+
+
+}

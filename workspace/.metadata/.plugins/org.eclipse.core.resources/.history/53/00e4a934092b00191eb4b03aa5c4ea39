@@ -1,0 +1,27 @@
+package alumnos;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		String opcion = "";
+		while(!opcion.equals("6"))
+		{
+			mostrarMenu();
+		}
+
+	}
+
+	public static void mostrarMenu()
+	{
+		System.out.println("Opciones\n" +
+			"1.- Listar alumnos.\n" +
+			"2.- Añadir alumno. (No se permitirán nombres repetidos)\n" +
+			"3.- Eliminar alumno.\n" +
+			"4.- Poner nota. (Se pedirá nombre de alumno, evaluación y nota)" +
+			"5.- Borrar nota. (Se pedirá nombre de alumno y evaluación)" +
+			"6.- Salir.");
+	}
+
+}

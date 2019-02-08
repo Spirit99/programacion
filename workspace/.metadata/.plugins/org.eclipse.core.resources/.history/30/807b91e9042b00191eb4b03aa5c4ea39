@@ -1,0 +1,16 @@
+package alumnos;
+
+public class Validar
+{
+	public static boolean evaluacionValida(int evaluacion)
+	{
+		if(evaluacion < 1 || evaluacion > 3)
+		{
+			return false;
+		}
+		else
+		{
+			return true;
+		}
+	}
+}

@@ -1,9 +1,0 @@
-package mistring;
-
-public class MiString
-{
-	public static String alReves(String cadena)
-	{
-		return null;
-	}
-}

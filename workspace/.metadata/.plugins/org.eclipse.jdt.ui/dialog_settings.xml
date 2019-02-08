@@ -90,8 +90,8 @@
 	<section name="completion_proposal_size">
 		<item value="260" key="size.y"/>
 		<item value="546" key="size.x"/>
-		<item value="225" key="contextSelector.size.y"/>
-		<item value="295" key="contextSelector.size.x"/>
+		<item value="213" key="contextSelector.size.y"/>
+		<item value="283" key="contextSelector.size.x"/>
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item value="false" key="SortOrdering"/>

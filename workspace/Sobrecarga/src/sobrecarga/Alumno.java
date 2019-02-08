@@ -6,13 +6,6 @@ public class Alumno
 	private int añoNacimiento;
 	private float nota;
 
-	public Alumno()
-	{
-		nombre = "Manolo";
-		añoNacimiento = 1996;
-		nota = 10f;
-	}
-
 	public Alumno(String nombre)
 	{
 		this.nombre = nombre;
@@ -28,6 +21,12 @@ public class Alumno
 	{
 		this.nombre = nombre;
 		this.añoNacimiento = añoNacimiento;
+		this.nota = nota;
+	}
+
+	public Alumno(String nombre, float nota)
+	{
+		this.nombre = nombre;
 		this.nota = nota;
 	}
 
@@ -60,5 +59,25 @@ public class Alumno
 	{
 		this.nota = nota;
 	}
+
+	/**
+	 * Sube la nota 1 punto (si excede de 10)
+	 */
+	public void subirNota()
+	{
+		if(nota <= 9)
+		{
+			nota++;
+		}
+	}
+
+	public void subirNota(float subida)
+	{
+		if(nota + subida <= 10)
+		{
+			nota += subida;
+		}
+	}
+
 
 }

@@ -1,0 +1,22 @@
+package e474;
+
+import java.util.Scanner;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		int casos = sc.nextInt();
+		int s, a, b;
+		for (int i = 0; i < casos; i++)
+		{
+			s = sc.nextInt();
+			a = sc.nextInt();
+			b = sc.nextInt();
+
+		}
+	}
+
+}

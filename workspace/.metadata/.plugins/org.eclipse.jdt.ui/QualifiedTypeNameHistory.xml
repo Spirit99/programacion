@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
@@ -15,4 +14,13 @@
 <fullyQualifiedTypeName name="empleados.Empleado"/>
 <fullyQualifiedTypeName name="mistring.MiString"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="numero.Numero"/>
+<fullyQualifiedTypeName name="sobrecarga.Alumno"/>
+<fullyQualifiedTypeName name="java.lang.Readable"/>
+<fullyQualifiedTypeName name="rectangulo.Rectangulo"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="alumnos.Validar"/>
+<fullyQualifiedTypeName name="alumnos.Alumno"/>
+<fullyQualifiedTypeName name="alumnos.Alumnos"/>
 </qualifiedTypeNameHistroy>
