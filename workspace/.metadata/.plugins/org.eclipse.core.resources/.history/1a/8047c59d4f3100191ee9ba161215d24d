@@ -1,0 +1,8 @@
+package conductor;
+
+import Empleado;
+
+public class Conductor extends Empleado
+{
+
+}

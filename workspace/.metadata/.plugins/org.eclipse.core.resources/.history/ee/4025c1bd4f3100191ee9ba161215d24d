@@ -1,0 +1,11 @@
+package conductor;
+
+import empleados.Empleado;
+
+public class Conductor extends Empleado
+{
+	public Conductor()
+	{
+		super();
+	}
+}

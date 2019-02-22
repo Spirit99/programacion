@@ -1,0 +1,15 @@
+package conductor;
+
+import empleados.Empleado;
+
+public class Conductor extends Empleado
+{
+	private double totalKilometros;
+	private String ciudadesRecoridas;
+	public Conductor(String nombre, String telefono)
+	{
+		super(nombre, telefono);
+		totalKilometros = 0;
+		ciudadesRecoridas = "";
+	}
+}
