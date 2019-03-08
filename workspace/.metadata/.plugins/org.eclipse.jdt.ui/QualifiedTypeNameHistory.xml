@@ -28,4 +28,8 @@
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="conductor.Conductor"/>
 <fullyQualifiedTypeName name="empleados.Empleado"/>
+<fullyQualifiedTypeName name="caja.CajaRegistradora.Bandeja"/>
+<fullyQualifiedTypeName name="caja.CajaRegistradora"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="application.Ahorcado"/>
 </qualifiedTypeNameHistroy>
