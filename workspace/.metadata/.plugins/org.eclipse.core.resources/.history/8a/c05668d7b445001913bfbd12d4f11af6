@@ -1,0 +1,21 @@
+package alumnos;
+
+import java.util.Scanner;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		Scanner linea = new Scanner(System.in);
+		Scanner sc = new Scanner(linea);
+		int aux;
+		while(sc.hasNextInt())
+		{
+			aux = sc.nextInt();
+			System.out.println(aux);
+		}
+
+	}
+
+}

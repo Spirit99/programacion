@@ -1,0 +1,62 @@
+package naipes;
+
+public class Naipes implements INaipes
+{
+
+	@Override
+	public String traducir(int numCarta)
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void barajar()
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public int extraerCartaAlAzar()
+	{
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int extraerCartaArriba()
+	{
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int extraerCarta(int posicion)
+	{
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public boolean ponerCarta(int numCarta)
+	{
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public int getNumCartas()
+	{
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void ordenar()
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

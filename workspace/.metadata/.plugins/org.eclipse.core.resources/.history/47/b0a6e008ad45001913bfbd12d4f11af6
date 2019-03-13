@@ -1,0 +1,16 @@
+package naipes;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		Naipes naipes = new Naipes();
+		for (int i = 1; i <= 40; i++)
+		{
+			System.out.println(naipes.traducir(i));
+		}
+
+	}
+
+}

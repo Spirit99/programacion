@@ -1,0 +1,27 @@
+package naipes;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		Naipes naipes = new Naipes();
+
+		System.out.println("Traducciones:");
+		for (int i = 1; i <= 40; i++)
+		{
+			System.out.println(naipes.traducir(i));
+		}
+		System.out.println("Extraer arriba:");
+		System.out.println(naipes.traducir(naipes.extraerCartaArriba()));
+		System.out.println(naipes.traducir(naipes.extraerCartaArriba()));
+		System.out.println("Número de cartas: " + naipes.getNumCartas());
+
+		System.out.println("Extracción por posición:");
+		System.out.println(naipes.traducir(naipes.extraerCarta(1)));
+
+
+
+	}
+
+}
