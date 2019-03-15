@@ -1,0 +1,30 @@
+package alumnos;
+
+import java.util.Scanner;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+
+
+
+		System.out.println("Notas separadas por espacios:");
+		String linea = sc.nextLine();
+
+		Scanner scLinea = new Scanner(linea);
+
+		int num;
+
+		while(scLinea.hasNextInt())
+		{
+			num = scLinea.nextInt();
+			System.out.println(num);
+		}
+
+
+	}
+
+}

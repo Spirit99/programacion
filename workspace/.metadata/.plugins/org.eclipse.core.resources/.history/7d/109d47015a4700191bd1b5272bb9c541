@@ -1,0 +1,6 @@
+package sobreescritura;
+
+public class Gato extends Animal
+{
+
+}

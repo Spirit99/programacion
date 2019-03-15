@@ -1,0 +1,34 @@
+package alumnos;
+
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+		final int NUM_ALUMNOS = 3;
+		Alumno[] alumnos = new Alumno[NUM_ALUMNOS];
+		Scanner sc = new Scanner(System.in);
+		String nombre;
+		String notas;
+		for (int i = 0; i < alumnos.length; i++)
+		{
+			System.out.println("Introduzca nombre:");
+			nombre = sc.nextLine();
+			alumnos[i] = new Alumno(nombre);
+			System.out.println("Introduzca notas separadas por espacios:");
+			/*
+			notas = sc.nextLine();
+			String[] strNotas = notas.split(" ");
+			for(String nota: strNotas)
+			{
+				if(!alumnos[i].anadeNota(Integer.parseInt(nota)))
+				{
+					System.out.println("La nota " + nota + " no se pudo añadir");
+				}
+			}
+			*/
+
+		}
+	}
+}
