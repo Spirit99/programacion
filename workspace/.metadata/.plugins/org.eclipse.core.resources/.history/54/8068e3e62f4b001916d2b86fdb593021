@@ -1,0 +1,12 @@
+package abstracta;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		// Forma forma = new Forma(null,1f,1f,0f,0f,null);
+
+	}
+
+}

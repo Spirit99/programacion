@@ -1,0 +1,15 @@
+package excepciones;
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+		int[] numeros = new int[10];
+
+		numeros[100000] = 4;
+
+
+
+
+	}
+}

@@ -8,7 +8,6 @@
 <fullyQualifiedTypeName name="vehiculos.Vehiculo"/>
 <fullyQualifiedTypeName name="menu.Nombres"/>
 <fullyQualifiedTypeName name="nombres.Nombres"/>
-<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 <fullyQualifiedTypeName name="mistring.MiString"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="numero.Numero"/>
@@ -34,4 +33,15 @@
 <fullyQualifiedTypeName name="alumnos.Alumno"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="demo.SubDemo"/>
+<fullyQualifiedTypeName name="abstracta.Triangulo"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="java.security.InvalidParameterException"/>
 </qualifiedTypeNameHistroy>

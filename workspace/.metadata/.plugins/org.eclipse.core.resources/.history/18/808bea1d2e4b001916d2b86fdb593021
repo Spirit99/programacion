@@ -1,0 +1,9 @@
+package abstracta;
+
+public class Triangulo extends Forma
+{
+	public Triangulo()
+	{
+		super();
+	}
+}

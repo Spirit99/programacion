@@ -1,0 +1,29 @@
+package excepciones;
+
+import java.io.FileNotFoundException;
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+		int[] numeros = new int[10];
+
+		String[] cadenas = new String[10];
+
+		try
+		{
+			System.out.println("Hola");
+
+			System.out.println(cadenas[0].length());
+
+			numeros[100000] = 4;
+
+			System.out.println("Adiós");
+		}
+		catch(IndexOutOfBoundsException e)
+		{
+
+			System.out.println("Error.");
+		}
+	}
+}

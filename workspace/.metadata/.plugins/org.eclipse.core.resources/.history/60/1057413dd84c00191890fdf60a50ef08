@@ -1,0 +1,6 @@
+package alumno;
+
+public class NotaNoValidaException extends Exception
+{
+
+}

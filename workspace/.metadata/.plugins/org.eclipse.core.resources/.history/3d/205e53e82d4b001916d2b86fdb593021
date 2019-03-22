@@ -1,0 +1,6 @@
+package abstracta;
+
+public class Triangulo extends Forma
+{
+
+}

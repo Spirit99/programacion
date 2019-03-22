@@ -1,0 +1,14 @@
+package alumno;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		Alumno alumno1 = new Alumno("Uno", 18);
+
+		Alumno alumno2 = new Alumno("Dos", -2);
+
+	}
+
+}

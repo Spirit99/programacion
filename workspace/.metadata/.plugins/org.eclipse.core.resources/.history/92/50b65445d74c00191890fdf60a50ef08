@@ -1,0 +1,13 @@
+package alumno;
+
+public class EdadNoValidaException extends Exception
+{
+
+	/**
+	 *
+	 */
+
+
+
+
+}
