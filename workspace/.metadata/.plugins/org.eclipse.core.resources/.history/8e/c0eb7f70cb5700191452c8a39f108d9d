@@ -1,0 +1,19 @@
+package arraylist;
+
+import java.util.ArrayList;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		ArrayList<Long> alNumeros = new ArrayList<>();
+
+		alNumeros.add(11l);
+		alNumeros.add(11l);
+
+		System.out.println(alNumeros.contains(11l));
+
+	}
+
+}

@@ -1,0 +1,48 @@
+package productos;
+
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		HashMap<Integer, String> hmProductos = new HashMap<Integer, String>();
+		Scanner sc = new Scanner(System.in);
+		int codigo;
+		String descripcion;
+
+
+		System.out.print("Código: ");
+		codigo = Integer.parseInt(sc.nextLine());
+		while(codigo != -1)
+		{
+			System.out.print("Descripción: ");
+			descripcion = sc.nextLine();
+
+			if(hmProductos.put(codigo, descripcion) == null)
+			{
+				System.out.println("Nuevo producto insertado.");
+			}
+			else
+			{
+				System.out.println("Descripción actualizada.");
+			}
+			System.out.print("Código: ");
+			codigo = Integer.parseInt(sc.nextLine());
+		}
+
+		System.out.println("Total productos insertados (" + hmProductos.size() + "):");
+		for (Integer cod: hmProductos.keySet())
+		{
+			System.out.println("Código : " + cod + " Valor : " + hmProductos.get(cod));
+		}
+
+
+
+
+
+	}
+
+}

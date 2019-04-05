@@ -1,9 +1,0 @@
-package demo;
-
-public class SubDemo extends Demo
-{
-	public void metodoDeSubDemo()
-	{
-		System.out.println("Hola, soy el método de SubDemo.");
-	}
-}

@@ -1,0 +1,25 @@
+package arraylist;
+
+import java.util.ArrayList;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		ArrayList<Long> alNumeros = new ArrayList<>();
+
+		alNumeros.add(1l);
+		alNumeros.add(2l);
+		alNumeros.add(3l);
+		alNumeros.add(4l);
+		alNumeros.add(5l);
+
+		System.out.println(alNumeros.contains(5l));
+		System.out.println(alNumeros.contains(100000l));
+
+		alNumeros.remove(4);
+
+	}
+
+}

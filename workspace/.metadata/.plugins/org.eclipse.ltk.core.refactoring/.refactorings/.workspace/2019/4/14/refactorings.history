@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;79_ArrayList&apos; to &apos;79_ArrayList_palabras&apos;&#x0A;- Original element: &apos;79_ArrayList&apos;&#x0A;- Renamed element: &apos;79_ArrayList&apos;&#x0A;- Update references to refactored element" description="Rename Java project &apos;79_ArrayList&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=79_ArrayList" name="79_ArrayList_palabras" references="true" stamp="1554488933959" version="1.0"/>
+</session>

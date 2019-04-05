@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;hsPalabras&apos; in &apos;hashset.Main.main(...)&apos; to &apos;hsEmpleados&apos;&#x0A;- Original project: &apos;77_HashSet_empleados&apos;&#x0A;- Original element: &apos;hashset.Main.main(String[]).hsPalabras&apos;&#x0A;- Renamed element: &apos;hsPalabras&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;hsPalabras&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;hashset{Main.java[Main~main~\[QString;@hsPalabras!199!245!217!226!QHashSet\&lt;QEmpleado;&gt;;!0!false" name="hsEmpleados" references="true" stamp="1554306585184" version="1.0"/>
+</session>

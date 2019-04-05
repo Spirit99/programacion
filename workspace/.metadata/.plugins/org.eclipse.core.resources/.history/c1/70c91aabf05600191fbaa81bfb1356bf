@@ -1,0 +1,16 @@
+package hashmap;
+
+import java.util.HashMap;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		HashMap<String, Integer> hmMatriculas = new HashMap<>();
+
+		System.out.println(hmMatriculas.put("4545FVG", 0));
+
+	}
+
+}

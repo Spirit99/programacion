@@ -1,0 +1,23 @@
+package palabras;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+
+		Scanner sc = new Scanner(System.in);
+		ArrayList<String> alPalabras = new ArrayList<>();
+		System.out.println("Introduce palabras separadas por un espacio:");
+		String[] palabras = sc.nextLine().split(" ");
+		for (int i = 0; i < palabras.length; i++)
+		{
+			alPalabras.add(palabras[i]);
+		}
+
+	}
+
+}

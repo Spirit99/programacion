@@ -1,0 +1,12 @@
+package hashset;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		HashSet<String> hashSet = new HashSet();
+
+	}
+
+}
