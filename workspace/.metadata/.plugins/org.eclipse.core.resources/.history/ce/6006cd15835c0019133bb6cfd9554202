@@ -1,0 +1,21 @@
+package treemap;
+
+import java.util.TreeMap;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		TreeMap<String, Integer> tmPersonas = new TreeMap<>();
+
+		System.out.println(tmPersonas.put("uno",1));
+		System.out.println(tmPersonas.put("UNO",1));
+		System.out.println(tmPersonas.put("uno",2));
+
+		System.out.println(tmPersonas.containsKey("uno"));
+
+
+	}
+
+}

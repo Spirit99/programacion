@@ -29,6 +29,32 @@ public class Main
 		System.out.println("Las palabras introducidas después de la inserción:");
 		mostrarPalabras(alPalabras);
 		System.out.println("Introduce una palabra a eliminar:");
+		if(alPalabras.remove(sc.nextLine()))
+		{
+			System.out.println("Palabra eliminada.");
+		}
+		else
+		{
+			System.out.println("Palabra no encontrada.");
+		}
+		sc.close();
+		System.out.println("Las palabras introducidas después de la eliminación:");
+		mostrarPalabras(alPalabras);
+		if(!alPalabras.isEmpty())
+		{
+			System.out.println(alPalabras.get(alPalabras.size() - 1));
+		}
+		System.out.println("Las palabras introducidas después de eliminar la última palabra:");
+		mostrarPalabras(alPalabras);
+		Collections.sort(alPalabras);
+		if(!alPalabras.isEmpty())
+		{
+			System.out.println("La primera palabra por orden alfabético es "
+				+ alPalabras.get(0));
+			System.out.println("La última palabra por orden alfabético es "
+					+ alPalabras.get(alPalabras.size() - 1));
+		}
+
 
 	}
 

@@ -1,0 +1,29 @@
+package treeset;
+
+import java.util.TreeSet;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+		TreeSet<Integer> tsNumeros = new TreeSet<>();
+		System.out.println(tsNumeros.add(1));
+		System.out.println(tsNumeros.add(1));
+
+		System.out.println(tsNumeros.contains(1));
+
+		System.out.println(tsNumeros.remove(2));
+
+		tsNumeros.size();
+
+		for(int num: tsNumeros)
+		{
+			System.out.println(num);
+		}
+
+		tsNumeros.clear();
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package jugadores;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+
+	}
+
+	private static void mostrarMenu()
+	{
+		System.out.println("1.-Introducir jugador\n" +
+				"2.-Listar jugadores\n" +
+				"3.-Eliminar jugador\n" +
+				"4.-Borrar todos\n" +
+				"5.-Salir\n");
+	}
+
+}
